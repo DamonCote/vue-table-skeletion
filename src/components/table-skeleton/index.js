@@ -4,7 +4,7 @@ export { Table };
 
 const component = [Table];
 
-const TableSkeletion = {
+const TableSkeleton = {
     install(Vue) {
         component.forEach((item) => {
             Vue.component(item.name, item);
@@ -12,4 +12,4 @@ const TableSkeletion = {
     },
 };
 
-export default TableSkeletion;
+export default TableSkeleton;

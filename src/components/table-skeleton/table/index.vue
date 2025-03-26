@@ -30,7 +30,7 @@ const getStyle = (attrs) => {
 </script>
 <script>
 export default {
-    name: "TableSkeletion",
+    name: "TableSkeleton",
 };
 </script>
 <template>

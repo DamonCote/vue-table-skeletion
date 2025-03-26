@@ -1,10 +1,10 @@
 import { createApp } from "vue";
 import "./style.css";
 import App from "./App.vue";
-import TableSkeletion from "./components/table-skeletion";
+import TableSkeleton from "./components/table-skeleton";
 
 const app = createApp(App);
 
-app.use(TableSkeletion);
+app.use(TableSkeleton);
 
 app.mount("#app");

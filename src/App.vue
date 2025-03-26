@@ -25,5 +25,5 @@ const refTableColumns = ref([
 ]);
 </script>
 <template>
-    <TableSkeletion :row="10" :columns="refTableColumns" />
+    <TableSkeleton :row="10" :columns="refTableColumns" />
 </template>
